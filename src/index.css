@@ -1,4 +1,4 @@
-/* Inria serif */
+/* Inria serif
 @import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
 /* Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -65,4 +65,4 @@
 }
 .swiper-pagination-bullet {
   @apply w-3 h-3 bg-dark_primary;
-}
+} 

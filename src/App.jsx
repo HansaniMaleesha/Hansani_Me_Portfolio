@@ -2,6 +2,7 @@
 import React from 'react';
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
+import About from './components/About';
 import Skills from "./components/Skills";
 import Service from "./components/Services";
 
@@ -25,6 +26,7 @@ const App = () => {
     <div className="">
       <Hero />
       <Navbar />
+      <About />
       <Skills />
       <Service />
        <Testimonials /> 
