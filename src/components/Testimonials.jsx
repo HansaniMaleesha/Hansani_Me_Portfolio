@@ -13,8 +13,16 @@ const Testimonials = () => {
   const { Testimonials } = content;
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <section>
-      <div className="md:container px-5 pt-14">
+    <section id="blog" className="overflow-hidden ">
+      <div className="min-h-screen relative  md:flex-row flex-col-reverse justify-center items-center">
+      <div
+          data-aos="slide-left"
+          data-aos-delay="1200"
+          className="absolute h-full w-full left-0  bg-primaryLinear  -z-10"
+          
+        >
+          
+        </div> 
         <h2 className="title" data-aos="fade-down">
           {Testimonials.title}
         </h2>

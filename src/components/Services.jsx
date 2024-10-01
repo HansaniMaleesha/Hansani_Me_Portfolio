@@ -32,7 +32,16 @@ const Services = () => {
     setIsOpen(false);
   }
   return (
-    <section id="services">
+    <section id="services"  className="overflow-hidden ">
+      <div className="min-h-screen relative  md:flex-row flex-col-reverse justify-center items-center">
+      <div
+          data-aos="slide-right"
+          data-aos-delay="1200"
+          className="absolute h-full w-full left-0  bg-primaryLinear  -z-10"
+          
+        >
+          
+        </div> 
        {/* modal */}
        <Modal
         isOpen={modalIsOpen}
@@ -79,6 +88,7 @@ const Services = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

@@ -62,32 +62,32 @@ export const content = {
     title: "A Full Stack Developer",
     firstName: "Hansani",
     LastName: "Maleesha",
-    btnText: "Download Resume",
+    btnText: "Hire Me",
     image: Hero_person,
     
     hero_content: [
       {
-        text: "I am an undergraduate in the Faculty of Information Technology at the University of Moratuwa. ",
+        text: "I am a dedicated Full Stack Developer and undergraduate at the University of Moratuwa, passionate about creating innovative and efficient web applications. ",
       },],
       logos:[
         {
           name: "GitHub",
-          url: "https://github.com/your-username", // Replace with your GitHub URL
+          url: "https://github.com/HansaniMaleesha", // Replace with your GitHub URL
           logo: github,
         },
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/your-linkedin-id", // Replace with your LinkedIn URL
+          url: "https://www.linkedin.com/in/hansani-maleesha/", // Replace with your LinkedIn URL
           logo: linkdin,
         },
         {
           name: "Medium",
-          url: "https://medium.com/@your-medium-id", // Replace with your Medium URL
+          url: "https://medium.com/@maleesha0003", // Replace with your Medium URL
           logo: medium,
         },
         {
           name: "Email",
-          url: "mailto:your-email@example.com", // Replace with your email address
+          url: "mailto:hansanimaleeshamaduwanthi@gmail.com", // Replace with your email address
           logo: emaillogo,
         },
       ],
@@ -187,10 +187,11 @@ export const content = {
   About: {
     title: "About me.",
     subtitle: "About me",
+    btnText: "Download Resume",
     about_content: [
       {
         
-        text: "I thrive on solving challenges  through logical and creative thinking, viewing each as an opportunity for growth. With a solid foundation in software development, I am committed to continuously improving my skills and contributing to innovative projects in the IT field.",
+        text: "I am a 3rd-year undergraduate at the University of Moratuwa, Faculty of Information Technology. I thrive on solving challenges through logical and creative thinking, viewing each as an opportunity for growth. With a solid foundation in software development, I am passionate about continuous learning and self-improvement.I enjoy taking on complex problems, driven by a desire to contribute to impactful projects. Committed to delivering high-quality results, I aim to enhance my skills and make meaningful contributions to the IT field.",
         
         
       },
