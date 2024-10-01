@@ -53,14 +53,14 @@
 
 @layer utilities {
   .btn {
-    @apply py-2 px-9 border-2 rounded-md
+    @apply py-1 px-5 border-2 rounded-md
      border-dark_primary rounded-br-3xl font-medium;
   }
   .title {
-    @apply md:text-3xl text-2xl;
+    @apply md:text-3xl justify-center items-center text-2xl pt-10 text-center;
   }
   .subtitle {
-    @apply text-gray;
+    @apply text-gray  text-center;
   }
 }
 .swiper-pagination-bullet {

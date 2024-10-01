@@ -1,61 +1,43 @@
 import { content } from "../../Content.jsx";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination } from 'swiper/modules';
-import { useState } from "react";
 
 const About = () => {
   const { About } = content;
-  const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <section>
-      <div className="md:container px-5 pt-14">
-        <h2 className="title" data-aos="fade-down">
+    <section id="about" className="overflow-hidden ">
+       
+      <div className="min-h-screen relative  md:flex-row flex-col-reverse justify-center items-center">
+      <div
+          data-aos="slide-right"
+          data-aos-delay="1200"
+          className="absolute h-full w-full left-0  bg-primaryLinear  -z-10"
+          
+        >
+          
+        </div> 
+        <h2 className="title justify-center items-center " data-aos="fade-down">
           {About.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
           {About.subtitle}
         </h4>
         <br />
-        <Swiper
-          direction={"vertical"}
-          pagination={{
-            clickable: true,
-          }}
-          data-aos="fade-up"
-          loop={true}
-          spaceBetween={40}
-          slidesPerView={1.7}
-          onSlideChange={(e) => {
-            console.log(e.realIndex);
-            setActiveIndex(e.realIndex);
-          }}
-          modules={[Pagination]}
-          className="md:h-96 h-[40rem] max-w-3xl"
+        <div
+          className="duration-500 bg-bg_light_primary mx-auto border-2 p-8 
+          rounded-2xl flex flex-col gap-6 border-slate-200 max-w-2xl"
+          data-aos="fade-down"
         >
-          {About.about_content.map((content, i) => (
-            <SwiperSlide key={i}>
-              <div
-                className={` duration-500 bg-bg_light_primary mx-8 border-2 
-              p-8 h-full rounded-2xl flex items-center gap-6
-               border-slate-200 md:flex-row flex-col
-                ${activeIndex !== i && "scale-75 blur-sm"}`}
-              >
-               
-                <div>
-                  <p className="sm:text-base text-sm">{content.text}</p>
-                  <br />
-                 
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          <div className="w-full pt-5">
+            <p className="sm:text-base text-sm text-center mx-auto max-w-md">
+              {About.about_content[0].text}
+            </p>
+            <br />
+            <div className="flex justify-center">
+              <a href="../../public/mycv/HansaniMaleesha_SE.pdf" download="Hansani Maleesha SE">
+                <button className="btn">{About.btnText}</button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

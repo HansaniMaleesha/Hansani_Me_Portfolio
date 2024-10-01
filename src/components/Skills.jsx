@@ -35,7 +35,16 @@ const Skills = () => {
   }
 
   return (
-    <section className="min-h-fit bg-bg_light_primary" id="skills">
+    <section className="overflow-hidden" id="skills">
+      <div className="min-h-screen relative  md:flex-row flex-col-reverse justify-center items-center">
+      <div
+          data-aos="slide-left"
+          data-aos-delay="1200"
+          className="absolute h-full w-full left-0  bg-primaryLinear  -z-10"
+          
+        >
+          
+        </div> 
       {/* modal */}
       <Modal
         isOpen={modalIsOpen}
@@ -93,6 +102,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );
