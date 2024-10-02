@@ -17,46 +17,48 @@ import services_logo2 from "./src/assets/images/Services/logo2.png";
 import services_logo3 from "./src/assets/images/Services/logo3.png";
 
 
-
-import avatar1 from "./src/assets/images/Testimonials/avatar1.png";
-import avatar2 from "./src/assets/images/Testimonials/avatar2.png";
-import avatar3 from "./src/assets/images/Testimonials/avatar3.png";
-import avatar4 from "./src/assets/images/Testimonials/avatar4.png";
 import blog from "./src/assets/images/Testimonials/blog.png";
 
 
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { AiFillHome } from "react-icons/ai";
+import {  MdCall } from "react-icons/md";
 import { BsLinkedin } from 'react-icons/bs';
-import { TbSmartHome } from "react-icons/tb";
-import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { BiUser } from "react-icons/bi"; // Import new icon
+import { FaProjectDiagram } from "react-icons/fa";
+import { MdOutlinePermContactCalendar, MdOutlineArticle } from "react-icons/md";
+import { GiSkills } from "react-icons/gi";
+
 
 export const content = {
   nav: [
     {
       link: "#home",
-      icon: TbSmartHome,
+      icon: AiFillHome,
+    },
+    {
+      link: "#about", // Link for the About Us section
+      icon: BiUser, // New icon
     },
     {
       link: "#skills",
-      icon: BiUser,
+      icon:  GiSkills,
     },
     {
       link: "#services",
-      icon: RiServiceLine,
+      icon: FaProjectDiagram,
     },
     {
-      link: "#projects",
-      icon: RiProjectorLine,
+      link: "#blog",
+      icon: MdOutlineArticle ,
     },
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
+   
   ],
   hero: {
     title: "A Full Stack Developer",
