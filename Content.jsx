@@ -5,6 +5,9 @@ import linkdin from "./src/assets/images/Hero/linkdinlogo.png";
 import github from "./src/assets/images/Hero/githublogo.png";
 import medium from "./src/assets/images/Hero/medium.png";
 
+import html from "./src/assets/images/Skills/html.png";
+import css from "./src/assets/images/Skills/css.png";
+import javascript from "./src/assets/images/Skills/js.png";
 import figma from "./src/assets/images/Skills/figma.png";
 import ps from "./src/assets/images/Skills/ps.png";
 import reactjs from "./src/assets/images/Skills/react.png";
@@ -12,9 +15,10 @@ import nodejs from "./src/assets/images/Skills/node.png";
 import python from "./src/assets/images/Skills/python.png";
 import java from "./src/assets/images/Skills/java.png";
 
-import services_logo1 from "./src/assets/images/Services/logo1.png";
-import services_logo2 from "./src/assets/images/Services/logo2.png";
-import services_logo3 from "./src/assets/images/Services/logo3.png";
+import services_logo1 from "./src/assets/images/Services/ikon-logo.png";
+import services_logo2 from "./src/assets/images/Services/D2B.png";
+import services_logo3 from "./src/assets/images/Services/blog (2).png";
+import services_logo4 from "./src/assets/images/Services/beverage.png";
 
 
 import blog from "./src/assets/images/Testimonials/blog.png";
@@ -100,6 +104,18 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
+        name: "HTML",
+        logo: html,
+      },
+      {
+        name: "CSS",
+        logo: css,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
+      },
+      {
         name: "React js",
         logo: reactjs,
       },
@@ -134,23 +150,28 @@ export const content = {
       {
         title: "IKON Unified Project Workspace (2023-2024)",
         para: "ReactJs, TypeScript, NodeJs, MySQL, Tailwind CSS",
-        des:"Developed a comprehensive project management platform enabling teams to collaborate efficiently. Implemented task tracking, project categorization, and role-based access control to streamline project workflows. Integrated MySQL for data persistence and TypeScript for improved code maintainability. Used Tailwind for building responsive UI, ensuring a seamless user experience across devices. Enhanced team collaboration with features such as project timelines, task assignments, and real-time updates.",
+        description:"Developed a comprehensive project management platform enabling teams to collaborate efficiently. Implemented task tracking, project categorization, and role-based access control to streamline project workflows. Integrated MySQL for data persistence and TypeScript for improved code maintainability. Used Tailwind for building responsive UI, ensuring a seamless user experience across devices. Enhanced team collaboration with features such as project timelines, task assignments, and real-time updates.",
         logo: services_logo1,
       },
       {
         title: "Laundry Management System (2023)",
         para: "ReactJs, NodeJs, MySQL, Bootstrap",
+        description:"The Laundry Management System is a comprehensive web application designed to streamline and automate laundry operations for businesses. It is built using React.js for a responsive and dynamic front-end, Node.js for scalable server-side processing, and MySQL for robust data management. The system enables users to efficiently manage orders, track laundry status in real-time, and handle customer information through a user-friendly interface that works seamlessly across all devices. Key features include order status updates, invoice generation, and customer request management, all designed to enhance the operational workflow. By digitizing the entire laundry process, the app boosts operational efficiency and delivers an improved customer experience with streamlined communication and services.",
+        github:"https://github.com/HansaniMaleesha/Laundry-Management-System",
         logo: services_logo2,
       },
       {
         title: "Blog App (2024)",
         para: " ReactJs, NodeJs, MySQL, SASS",
+        description:"The Blog App is a full-stack web application designed to simplify the process of creating, sharing, and managing blog content. Built using React.js for the front-end, Node.js for the back-end, and MySQL for data management, it offers a seamless and responsive user experience across devices. Key features include secure JWT authentication, dynamic content creation with image uploads, and category-based post organization. The app also integrates React Router DOM 6.4 for smooth navigation and provides a commenting system to foster user engagement. With its intuitive design and robust functionality, the Blog App enhances the blogging experience for both authors and readers.",
+        github:"https://github.com/HansaniMaleesha/Blog",
         logo: services_logo3,
       },
       {
         title: "Automated Beverage Mixture (2022-2023)",
         para: "C Language, Atmel Studio, Arduino IDE",
-        logo: services_logo3,
+        description:"The Automated Beverage Mixture is an innovative cocktail machine designed to simplify and enhance the beverage mixing process. Equipped with user-friendly input systems, it allows users to select from a variety of cocktails and customize their drinks according to personal preferences. The machine features automated beverage containers that precisely measure and dispense the required ingredients, ensuring consistency and quality in every drink. Utilizing advanced mixing processes, the machine combines the ingredients seamlessly, producing perfectly blended cocktails in seconds. The integration of microcontrollers and sensors enhances the machine's functionality, allowing it to monitor ingredient levels and provide real-time feedback to users. This automated solution not only saves time and effort but also delivers a sophisticated cocktail experience for gatherings, parties, and events.",
+        logo: services_logo4,
       },
     ],
     
