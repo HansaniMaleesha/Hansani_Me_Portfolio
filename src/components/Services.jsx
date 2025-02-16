@@ -51,7 +51,7 @@ const Services = () => {
           <br />
           <p className="text-justify">{selectProject?.description}</p> {/* Justified text */}
           <br />
-          
+
           {/* Links to GitHub and LinkedIn */}
           {selectProject?.github && (
             <a href={selectProject.github} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
