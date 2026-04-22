@@ -7,6 +7,7 @@ import Roles from "./components/Roles";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import { content } from "../Content.jsx";
@@ -27,6 +28,7 @@ const App = () => {
           <About />
           <Roles />
           <Skills />
+          <Education />
           <Projects />
           <Experience />
           <Blogs />

@@ -18,13 +18,12 @@ import springboot from "./src/assets/images/Skills/springboot.png";
 import reactnative from "./src/assets/images/Skills/reactnative.png";
 import flutter from "./src/assets/images/Skills/flutter.png";
 
-import services_logo1 from "./src/assets/images/Services/ikon-logo.png";
-import services_logo2 from "./src/assets/images/Services/D2B.png";
-import services_logo3 from "./src/assets/images/Services/blog (2).png";
-import services_logo4 from "./src/assets/images/Services/beverage.png";
-import services_logo5 from "./src/assets/images/Services/BuySwift.jpg";
-import services_logo6 from "./src/assets/images/Services/TravelX.jpg";
-import services_logo7 from "./src/assets/images/Services/JokeApp.jpg";
+import services_logo1 from "./src/assets/images/Projects/ikon.png";
+import services_logo2 from "./src/assets/images/Projects/laundry.png";
+import services_logo4 from "./src/assets/images/Projects/beverage.png";
+import services_logo5 from "./src/assets/images/Projects/buyswift.png";
+import services_logo6 from "./src/assets/images/Projects/github_analyzer.png";
+import services_logo3 from "./src/assets/images/Projects/qa_automation.png";
 
 import blog from "./src/assets/images/Testimonials/blog.png";
 
@@ -70,6 +69,7 @@ export const content = {
     { link: "#roles", label: "Roles" },
     { link: "#skills", label: "Skills" },
     { link: "#projects", label: "Projects" },
+    { link: "#education", label: "Education" },
     { link: "#experience", label: "Experience" },
     { link: "#blogs", label: "Blogs" },
     { link: "#contact", label: "Contact" },
@@ -80,14 +80,13 @@ export const content = {
     firstName: "Hansani",
     lastName: "Maleesha",
     typingTexts: [
-      "Software Engineer",
-      "System Engineer",
-      "Data Analyst",
-      "DevOps Engineer",
+      "Associate Software Engineer",
       "Full Stack Developer",
+      "Backend Engineer",
+      "Cloud Enthusiast",
     ],
     tagline:
-      "Final year IT undergraduate at the University of Moratuwa, passionate about building scalable systems and data-driven solutions.",
+      "Associate Software Engineer with hands-on experience in full-stack development, backend engineering, and automated testing.",
     image: Hero_person,
     btnText: "Get In Touch",
     resumeBtn: "Download CV",
@@ -119,12 +118,12 @@ export const content = {
   about: {
     title: "About Me",
     subtitle: "WHO I AM",
-    text: "I am a final-year undergraduate at the University of Moratuwa, Faculty of Information Technology. I thrive on solving challenges through logical and creative thinking, viewing each as an opportunity for growth. With a solid foundation in software development, system design, data analysis, and DevOps practices, I am passionate about continuous learning and self-improvement. I enjoy taking on complex problems, driven by a desire to contribute to impactful projects. Committed to delivering high-quality results, I aim to enhance my skills and make meaningful contributions to the IT field.",
+    text: "Associate Software Engineer with hands-on experience in full-stack development, backend engineering, and automated testing. Experienced in designing RESTful APIs, developing microservices-based applications, and implementing end-to-end test automation using technologies such as React, Node.js, Spring Boot, MySQL, and Cypress. Familiar with CI/CD pipelines, Docker, and Agile development practices, with a strong interest in scalable system design and backend development.",
     btnText: "Download Resume",
     stats: [
-      { value: "7+", label: "Projects" },
-      { value: "15+", label: "Technologies" },
-      { value: "4+", label: "Blog Articles" },
+      { value: "8+", label: "Projects" },
+      { value: "20+", label: "Technologies" },
+      { value: "5+", label: "Blog Articles" },
     ],
   },
 
@@ -135,30 +134,30 @@ export const content = {
     items: [
       {
         icon: FaCode,
-        title: "Software Engineer",
+        title: "Full-Stack Development",
         description:
-          "Design and build scalable, maintainable applications using modern frameworks and clean architecture patterns. Experienced in full-stack development with React, Spring Boot, and Node.js.",
+          "Designing and building scalable, maintainable web applications using React, Node.js, Next.js, and Spring Boot. Focused on clean architecture and performance.",
         color: "#00d4ff",
       },
       {
         icon: FaServer,
-        title: "System Engineer",
+        title: "Backend Engineering",
         description:
-          "Configure, deploy, and maintain system infrastructure. Proficient in Linux administration, networking fundamentals, and containerized deployments with Docker and Kubernetes.",
+          "Experienced in designing RESTful APIs, NestJS, Laravel, and microservices architecture. Proficient in database design with MySQL, PostgreSQL, and Firebase.",
         color: "#7b2ff7",
       },
       {
         icon: FaChartBar,
-        title: "Data Analyst",
+        title: "QA Automation",
         description:
-          "Transform raw data into actionable insights using Python, Pandas, and visualization tools. Experienced with SQL databases, statistical analysis, and machine learning fundamentals.",
+          "Implementing end-to-end test automation using Cypress and Cucumber. Focused on identifying bugs and ensuring high-quality software through automated test suites.",
         color: "#f472b6",
       },
       {
-        icon: FaCogs,
-        title: "DevOps Engineer",
+        icon: FaCloud,
+        title: "Cloud & DevOps",
         description:
-          "Automate CI/CD pipelines, manage cloud infrastructure on AWS, and implement containerization strategies. Focused on reliability, scalability, and deployment efficiency.",
+          "Automating CI/CD pipelines with GitHub Actions and managing containerized deployments with Docker. Focused on reliability and scalable infrastructure.",
         color: "#fbbf24",
       },
     ],
@@ -174,60 +173,52 @@ export const content = {
         skills: [
           { name: "HTML", logo: html, level: 90 },
           { name: "CSS", logo: css, level: 85 },
-          { name: "JavaScript", logo: javascript, level: 85 },
-          { name: "React.js", logo: reactjs, level: 88 },
-          { name: "TypeScript", icon: SiTypescript, level: 75 },
-          { name: "Tailwind CSS", icon: SiTailwindcss, level: 80 },
-          { name: "SASS", icon: SiSass, level: 70 },
-          { name: "Bootstrap", icon: SiBootstrap, level: 75 },
+          { name: "JavaScript", logo: javascript, level: 90 },
+          { name: "React.js", logo: reactjs, level: 92 },
+          { name: "Next.js", icon: FaCloud, level: 85 }, // Using FaCloud as placeholder if logo not available
+          { name: "TypeScript", icon: SiTypescript, level: 88 },
+          { name: "Tailwind CSS", icon: SiTailwindcss, level: 90 },
+          { name: "SASS", icon: SiSass, level: 80 },
         ],
       },
       {
         name: "Backend",
         skills: [
-          { name: "Node.js", logo: nodejs, level: 82 },
-          { name: "Spring Boot", logo: springboot, level: 78 },
-          { name: "Java", logo: java, level: 85 },
-          { name: "Python", logo: python, level: 80 },
-          { name: "Express.js", icon: SiExpress, level: 78 },
+          { name: "Node.js", logo: nodejs, level: 88 },
+          { name: "NestJS", icon: FaServer, level: 82 },
+          { name: "Spring Boot", logo: springboot, level: 80 },
+          { name: "Java", logo: java, level: 88 },
+          { name: "Laravel", icon: FaCode, level: 78 },
+          { name: "Express.js", icon: SiExpress, level: 85 },
         ],
       },
       {
         name: "Mobile",
         skills: [
-          { name: "React Native", logo: reactnative, level: 75 },
-          { name: "Flutter", logo: flutter, level: 70 },
-          { name: "Dart", icon: SiDart, level: 68 },
+          { name: "React Native", logo: reactnative, level: 82 },
+          { name: "Flutter", logo: flutter, level: 85 },
+          { name: "Dart", icon: SiDart, level: 80 },
         ],
       },
       {
-        name: "DevOps & Cloud",
+        name: "QA & DevOps",
         skills: [
-          { name: "Docker", icon: FaDocker, level: 75 },
-          { name: "Kubernetes", icon: SiKubernetes, level: 60 },
-          { name: "AWS", icon: FaAws, level: 65 },
-          { name: "Linux", icon: FaLinux, level: 78 },
-          { name: "Git", icon: FaGitAlt, level: 85 },
-          { name: "Jenkins / CI-CD", icon: FaJenkins, level: 65 },
+          { name: "Cypress", icon: FaCogs, level: 85 },
+          { name: "Jest", icon: FaCogs, level: 80 },
+          { name: "Docker", icon: FaDocker, level: 82 },
+          { name: "CI-CD / Github Actions", icon: FaJenkins, level: 80 },
+          { name: "AWS / Firebase", icon: FaAws, level: 75 },
+          { name: "Postman / SonarQube", icon: FaCogs, level: 85 },
         ],
       },
       {
-        name: "Data & Analytics",
+        name: "Data & Others",
         skills: [
-          { name: "MySQL", icon: SiMysql, level: 82 },
-          { name: "PostgreSQL", icon: SiPostgresql, level: 70 },
-          { name: "MongoDB", icon: SiMongodb, level: 68 },
-          { name: "Pandas", icon: SiPandas, level: 72 },
-          { name: "TensorFlow", icon: SiTensorflow, level: 55 },
-        ],
-      },
-      {
-        name: "Design & Tools",
-        skills: [
-          { name: "Figma", logo: figma, level: 75 },
-          { name: "Adobe Photoshop", logo: ps, level: 70 },
-          { name: "C / C++", icon: SiCplusplus, level: 72 },
-          { name: "Arduino", icon: SiArduino, level: 65 },
+          { name: "MySQL / MongoDB", icon: SiMysql, level: 88 },
+          { name: "Apache Spark", icon: SiPandas, level: 75 },
+          { name: "Python / Scikit-learn", logo: python, level: 82 },
+          { name: "Figma / Visily", logo: figma, level: 85 },
+          { name: "Git", icon: FaGitAlt, level: 92 },
         ],
       },
     ],
@@ -240,10 +231,10 @@ export const content = {
     items: [
       {
         title: "IKON Unified Project Workspace",
-        year: "2023–2024",
+        year: "2024",
         tags: ["React", "TypeScript", "Node.js", "MySQL", "Tailwind CSS"],
         description:
-          "Developed a comprehensive project management platform enabling teams to collaborate efficiently. Implemented task tracking, project categorization, and role-based access control to streamline project workflows. Integrated MySQL for data persistence and TypeScript for improved code maintainability. Used Tailwind for building responsive UI, ensuring a seamless user experience across devices. Enhanced team collaboration with features such as project timelines, task assignments, and real-time updates.",
+          "Developed a comprehensive project management system for Ikon Marketing Company to manage clients, tasks, and employee allocation. Improved system performance through database query optimization and implemented a notification system for team coordination.",
         logo: services_logo1,
       },
       {
@@ -251,8 +242,8 @@ export const content = {
         year: "2024",
         tags: ["React", "Spring Boot", "MySQL", "Docker"],
         description:
-          "Developed a scalable and efficient Online Shopping Platform using a microservices architecture, ensuring modularity, maintainability, and high performance. The platform consisted of five core services (Order, Product, Payment, Inventory, User), each deployed in Docker containers for seamless scalability and deployment.",
-        github: "https://github.com/TradeEase",
+          "Developed a full-stack e-commerce platform using microservices architecture and RESTful APIs. Implemented product, order, cart, and admin services with secure API communication and scalable database design.",
+        github: "https://github.com/HansaniMaleesha/BuySwift",
         logo: services_logo5,
       },
       {
@@ -260,45 +251,56 @@ export const content = {
         year: "2023",
         tags: ["React", "Node.js", "MySQL", "Bootstrap"],
         description:
-          "Comprehensive web application designed to streamline and automate laundry operations for businesses. It enables users to efficiently manage orders, track laundry status in real-time, and handle customer information through a user-friendly interface. Key features include order status updates, invoice generation, and customer request management.",
-        github:
-          "https://github.com/HansaniMaleesha/Laundry-Management-System",
+          "Full-stack web application designed for 'Dirty 2 Beauty Laundry' to streamline operations. Developed responsive UI components and integrated frontend with backend APIs, including form validation and interactive features.",
+        github: "https://github.com/HansaniMaleesha/Laundry-Management-System",
         logo: services_logo2,
       },
       {
-        title: "Blog App",
+        title: "Sales Management System — QA Automation",
         year: "2024",
-        tags: ["React", "Node.js", "MySQL", "SASS"],
+        tags: ["Cypress", "Cucumber", "JavaScript", "GitHub Actions"],
         description:
-          "Full-stack web application designed to simplify the process of creating, sharing, and managing blog content. Key features include secure JWT authentication, dynamic content creation with image uploads, and category-based post organization. Integrated React Router DOM 6.4 for smooth navigation and provides a commenting system.",
-        github: "https://github.com/HansaniMaleesha/Blog",
+          "Developed end-to-end automated test cases for major system workflows using Cypress and Cucumber (BDD). Executed automated test suites, identified bugs, and integrated test scripts with GitHub for version control.",
+        github: "https://github.com/HansaniMaleesha/Sales-Management-Test-suit",
         logo: services_logo3,
       },
       {
-        title: "TravelX",
+        title: "GitHub Portfolio Analyzer — Machine Learning",
         year: "2024",
-        tags: ["React Native"],
+        tags: ["Python", "Pandas", "Scikit-learn", "Machine Learning"],
         description:
-          "Developed a React Native mobile app that fetches and displays real-time data from an API, ensuring a smooth and responsive user experience.",
-        github: "https://github.com/HansaniMaleesha/TravelX",
+          "Built a machine learning model to analyze GitHub user activity and repository data. Performed data preprocessing, feature extraction, and developer activity classification using the GitHub API.",
+        github: "https://github.com/HansaniMaleesha/Portfolio-Strength-Analyzer",
         logo: services_logo6,
-      },
-      {
-        title: "Joke App",
-        year: "2024",
-        tags: ["Flutter", "Dart"],
-        description:
-          "A fun Flutter app that fetches and displays jokes from an API, providing an engaging user experience with a smooth UI.",
-        github: "https://github.com/HansaniMaleesha/JokeApp-mobile",
-        logo: services_logo7,
       },
       {
         title: "Automated Beverage Mixture",
         year: "2022–2023",
         tags: ["C", "Arduino", "Embedded Systems"],
         description:
-          "An innovative cocktail machine designed to simplify and enhance the beverage mixing process. Equipped with user-friendly input systems, it allows users to select from a variety of cocktails and customize their drinks. Utilized microcontrollers and sensors for automated dispensing and monitoring.",
+          "Developed a microcontroller-based automated beverage dispensing system using C language and Atmel Studio. Implemented sensor-based input handling and automated control logic for precise mixing.",
         logo: services_logo4,
+      },
+    ],
+  },
+
+  // ─── Education Section ──────────────────────────────────
+  education: {
+    title: "Education",
+    subtitle: "MY ACADEMIC BACKGROUND",
+    items: [
+      {
+        title: "B.Sc. (Hons) in Information Technology",
+        institution: "University of Moratuwa",
+        period: "2022 – 2026",
+        description:
+          "Faculty of Information Technology. Maintaining a CGPA of 3.56. Specialized in software engineering, microservices, and system design. Maintained strong academic performance while actively contributing to university projects.",
+      },
+      {
+        title: "G.C.E. Advanced Level",
+        institution: "Southlands College - Galle",
+        period: "2017 – 2020",
+        description: "Studied Physical Science stream. Achieved excellent results: Combined Maths: A, Chemistry: A, Physics: B.",
       },
     ],
   },
@@ -311,38 +313,29 @@ export const content = {
       {
         type: "work",
         title: "Associate Software Engineer",
-        company: "Tech Company",
-        period: "2025 – Present",
+        company: "Sanmark Solutions Pvt Ltd",
+        period: "Oct, 2025 – Present",
         description:
-          "Contributing to full-stack development of enterprise applications. Collaborating with cross-functional teams to deliver scalable solutions using React, Spring Boot, and cloud services.",
-        tags: ["React", "Spring Boot", "AWS", "Docker"],
+          "Developing and maintaining scalable web applications using React, Node.js, Next.js, NestJS, Flutter, and Laravel. Designing and integrating RESTful APIs and improving application performance. Working with HubSpot CMS and Odoo CRM for business solutions.",
+        tags: ["Next.js", "NestJS", "Flutter", "Laravel", "Odoo"],
       },
       {
         type: "work",
         title: "Software Engineering Intern",
-        company: "Software Company",
-        period: "2024 – 2025",
+        company: "Sanmark Solutions Pvt Ltd",
+        period: "Apr, 2025 – Oct, 2025",
         description:
-          "Gained hands-on experience in agile development workflows, contributed to production codebases, and assisted in DevOps pipeline setup. Worked on frontend and backend modules using React and Node.js.",
-        tags: ["React", "Node.js", "Git", "CI/CD"],
+          "Assisted in full-stack development and maintenance of web applications. Developed HubSpot CMS websites and created UI wireframes and prototypes using Figma and Visily.",
+        tags: ["React", "HubSpot", "Figma", "Agile"],
       },
       {
         type: "work",
         title: "Part-Time Developer",
-        company: "Freelance / Contract",
-        period: "2023 – 2024",
+        company: "Ikon Marketing Company",
+        period: "Oct, 2024 – Mar, 2025",
         description:
-          "Developed web applications for small businesses and startups. Handled full project lifecycle from requirements gathering to deployment for multiple clients.",
-        tags: ["React", "Node.js", "MySQL", "Tailwind CSS"],
-      },
-      {
-        type: "education",
-        title: "B.Sc. (Hons) in Information Technology",
-        company: "University of Moratuwa",
-        period: "2021 – Present",
-        description:
-          "Faculty of Information Technology. Specialized in software engineering, database systems, networking, and data science. Maintained strong academic performance while actively contributing to university projects.",
-        tags: ["Software Engineering", "Data Science", "Networking"],
+          "Developed and maintained web application features using React and Node.js. Assisted in database operations and API integration.",
+        tags: ["React", "Node.js", "API Integration"],
       },
     ],
   },
@@ -394,9 +387,9 @@ export const content = {
         link: "mailto:hansanimaleeshamaduwanthi@gmail.com",
       },
       {
-        text: "+94 762202760",
+        text: "+94 762206760",
         icon: MdCall,
-        link: "https://wa.me/94762202760",
+        link: "https://wa.me/94762206760",
       },
       {
         text: "Hansani Maleesha",
